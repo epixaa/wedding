@@ -39,9 +39,9 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `user`, `pass`) VALUES
-(17, 'epixaa', 'rooney10'),
-(18, 'epixaaa', 'rooney10'),
-(19, 'eredzheb', 'rooney10'),
+(17, 'epixaa', '123456'),
+(18, 'epixaaa', '123456'),
+(19, 'eredzheb', '12434'),
 (21, 'merlin', '123456'),
 (22, 'marin', '1234marin');
 
@@ -90,10 +90,10 @@ CREATE TABLE `reserve` (
 --
 
 INSERT INTO `reserve` (`id`, `date`, `name`, `email`, `number`, `isConfirmed`, `photographer_id`) VALUES
-(7, '2020-12-03', 'Eredzheb Nurhan', 'eredjeb_nurhan@abv.bg', '0896527507', 0, 1),
-(50, '2021-01-28', 'Melis', 'rooney596@mail.bg', '0896527507', 0, 1),
+(7, '2020-12-03', 'Eredzheb Nurhan', 'eredjeb_nurhan@abv.bg', '088888888', 0, 1),
+(50, '2021-01-28', 'Melis', 'rooney596@mail.bg', '0888888888', 0, 1),
 (33, '2020-12-12', 'Nutfi', 'nutfi911@icloud.com', '0560938381', 0, 1),
-(39, '2022-08-13', 'Merlin', 'merlin@abv.bg', '0894567789', 0, 1),
+(39, '2022-08-13', 'Merlin', 'merlin@abv.bg', '0888888888', 0, 1),
 (34, '2020-12-24', 'Deniz Memduev', 'deniz@gmail.com', '08999999999', 0, 1);
 
 --
