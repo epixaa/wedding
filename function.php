@@ -1,7 +1,7 @@
 <?php
         include 'db.php';
         include 'query.php';
-        // за извличане на данните за фотографистите от базата
+        // за извличане на данните за фотографистите от базата danni
         function comboFill($query){
                 $database = new db();
                $table = $database->get_multi_row($query);
